@@ -23,11 +23,13 @@ entry = tk.Entry(root, width=30, borderwidth=5)
 entry.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
 
 buttons = [
-    '8', '9', '7', '/',
-    '6', '5', '4', '*',
-    '1', '2', '3', '-',
-    '0', '.', '=', '+'
-]
+     '7', '8', '9', '/',
+     '4', '5', '6', '*',
+     '1', '2', '3', '-',
+     '0', '.', '=', '+'
+ ]
+
+num = 2
 
 row = 1
 col = 0
